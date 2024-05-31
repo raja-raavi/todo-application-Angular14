@@ -1,0 +1,31 @@
+#taskList {
+    text-align: center;
+    color: green;
+}
+
+#button {
+    background-color: rgb(255, 79, 79);
+    color: white;
+}
+
+#table {
+    text-align: center;
+    margin-left: 650px;
+}
+
+table {
+    border-collapse : collapse;
+}
+table,th,td {
+    border : 1px solid white;
+}
+th,td {
+    padding : 10px;
+}
+th {
+    color: blueviolet;
+}
+
+td {
+    color: white;
+}

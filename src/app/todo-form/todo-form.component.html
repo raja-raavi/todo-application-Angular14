@@ -1,0 +1,11 @@
+<h2 id="todoForm">TODO APPLICATION</h2>
+
+<div id="inputForm">
+    <label [ngStyle]="{'color':'white'}">Enter Task Here: </label>
+    <input type="text" size="40" [(ngModel)]="inputTask">
+
+    <button (click)="addTask()" id="addTask" [disabled]="!inputTask.length">Add Task</button>
+
+    <button (click)="resetTask()" id="resetTask" [disabled]="!inputTask.length">Reset Task</button>
+</div>
+
